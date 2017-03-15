@@ -1,22 +1,149 @@
+body{
+  margin:0px;
+  padding:0px;
+  overflow-x: hidden;
+  width: 100%;
+  font-size: 25px;
+  font-family: "Charlemagne STD";
+  font-weight: bold;
+}
+#menuLine{
+  height:100px;
+}
+
+#menuButton{
+  position:absolute;
+  width:40px;
+  top: 25px;
+  left:93%;
+}
 #begin{
   background-image: url("wallpaper.jpg");
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  height: 200px;
-  width:76%;
-  padding-left:12%;
-  padding-right:12%;
-  padding-top:100px;
-  padding-bottom:100px;
+  height: 300px;
+  padding-bottom:60px;
+  width:100%;
 }
 
 #title{
-  width: 100%;
-  height:100%;
+  padding-left:12%;
+  padding-right:12%;
+  width: 76%;
 }
 
-section{
-  height:1000px;
+#menu{
+  width:30%;
+  height:100%;
+  position:absolute;
+  top:0px;
+  right:-30%;
+}
+.block1{
+  width:100%;
+  height:100%;
+  background-color:black;
+  filter:opacity(95%);
+  z-index:-1;
+}
+.block2{
+  position:absolute;
+  top:0px;
+  left:0px;
+  color:white;
+  z-index:100000;
+}
+
+#menuButton1{
+  position: absolute;
+  width:40px;
+  top:25px;
+  left: 310px;
+}
+
+#myDesc{
+  width:70%;
+  padding-left:15%;
+  padding-right:15%;
+  float:left;
+  padding-top:80px;
+  padding-bottom: 70px;
+  text-align:center;
+}
+
+#textDesc{
+  width:60%;
+  font-size: 25px;
+  font-family:"Charlemagne STD";
+  font-weight:bold;
+  color:chocolate;
+  float:left;
+}
+
+#mainDesc{
+  width: 25%;
+  margin-top:25px;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+#myAbil{
+  background-image: url("ability.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:70%;
+  padding-left:15%;
+  padding-right:15%;
+  float:left;
+  padding-top:70px;
+  padding-bottom: 60px;
+  text-align:center;
+}
+
+#textAbil{
+  color: aliceblue;
+  text-shadow: 1px 1px 2px black;
+  float: left;
+}
+
+#Achiv{
+  width: 70%;
+  float: left;
+  padding-top:90px;
+  padding-bottom: 90px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.elem{
+  width: 24%;
+  height: 200px;
+  border: 1px solid black;
+  float: left;
+}
+
+#el1{
+  z-index: 10000;
+  background-image: url("sert1.jpg");
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ach{
+  display:none;
+  position:absolute;
+  width:17%;
+  height:160px;
+  color:white;
+  padding-top:40px;
+  transition: filter 0.5s ease;
+  filter:opacity(90%);
+  background-color: black;
+  text-align:center;
 }
