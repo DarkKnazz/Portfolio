@@ -1,0 +1,124 @@
+html,body{
+  height: 99%;
+  width: 100%;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: Rock;
+  src: url(fonts/VTKS_ROCK_GARAGE_BAND.ttf);
+}
+
+header{
+  width: 90%;
+  padding-left:10%;
+  height: 9%;
+  background-color: #006D4C;
+  color: #F8DFD9;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: Rock;
+}
+
+.mainUnit{
+  height: 90%;
+  width: 100%;
+}
+
+section{
+  width:80%;
+  height:100%;
+  float:left;
+  display: inline-block;
+  background-color: #5FD4B1;
+}
+
+article{
+  width: 16%;
+  height: 95.19%;
+  text-align: left; 
+  display: inline-block;
+  background-color: #207E62;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  font-size: 20px;
+  font-family: Impact;
+  color: #F8DFD9;
+}
+
+footer{
+  font-family: Rock;
+  background-color: #006D4C;
+  color: #F8DFD9;
+  height: 3%;
+}
+
+input#headerInput{
+  font-family: Impact;
+  font-size: 16px;
+  color:#332927;
+}
+
+#headerInput{
+  width: 95%;
+  background-color: #F8DFD9;
+  border:1px solid #006D4C;
+  box-shadow: 1px 1px 2px 2px #006D4C;
+  border-radius: 5px;
+}
+
+textarea#textInput{
+  font-family: Impact;
+  font-size: 16px;
+  color:#332927;  
+}
+
+#textInput{
+  width: 95%;
+  height: 250px;
+  resize: none;
+  background-color: #F8DFD9;
+  border:1px solid #006D4C;
+  box-shadow: 1px 1px 2px 2px #006D4C;
+  border-radius: 5px;
+}
+
+#submitButton{
+  width: 95%;
+  border: 3px solid #F8DFD9;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  transition: background-color 0.6s, border 0.6s, color 0.6s, box-shdow 1.2s;
+}
+
+#submitButton:hover{
+  background-color: #F8DFD9;
+  color: #207E62;
+  border: 3px solid #207E62;
+  box-shadow: 1px 1px 3px 3px #015a3f;
+}
+
+.drag1{
+  height: 100px;
+  width: 150px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #015a3f;
+  background-color: #00A876;
+  box-shadow: 1px 1px 2px 2px #015a3f;
+  text-align: left;
+  display: inline-block;
+  color: #F8DFD9;
+  position: absolute;
+  padding: 1.5%;
+}
+
+.textBlock{
+  width: 96%;
+  height: 94%;
+  resize: none;
+}
