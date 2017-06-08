@@ -91,7 +91,7 @@ textarea#textInput{
   text-align: center;
   line-height: 50px;
   height: 50px;
-  transition: background-color 0.6s, border 0.6s, color 0.6s, box-shdow 1.2s;
+  transition: background-color 0.6s, border 0.6s, color 0.6s, box-shadow 0.6s;
 }
 
 #submitButton:hover{
@@ -102,8 +102,8 @@ textarea#textInput{
 }
 
 .drag1{
-  height: 100px;
-  width: 150px;
+  height: 120px;
+  width: 160px;
   border-radius: 15px;
   font-size: 16px;
   font-weight: bold;
@@ -111,10 +111,30 @@ textarea#textInput{
   background-color: #00A876;
   box-shadow: 1px 1px 2px 2px #015a3f;
   text-align: left;
-  display: inline-block;
+  display: none;
   color: #F8DFD9;
   position: absolute;
-  padding: 1.5%;
+  word-wrap:break-word;
+  padding: 1.2%;
+  padding-right: 1.5%;
+}
+
+.exBut{
+  background-color: #b40606;
+  position:absolute;
+  top: 8px;
+  right: 8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  transition: height 0.6s, border 0.6s, width 0.6s, background-color 1.2s;
+}
+
+.exBut:hover{
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background-color: #efefef;
 }
 
 .textBlock{
